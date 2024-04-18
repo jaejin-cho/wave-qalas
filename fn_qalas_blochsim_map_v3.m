@@ -85,6 +85,8 @@ json = fileread(qalas_json_filename);
 
 res = jsondecode(json);
 
+% The echo spacing time read from the JSON file might be incorrect on VE11C. 
+% On XA30, the echo spacing time read from the JSON file is correct.
 esp = res.RepetitionTime            % echo spacing in sec
 turbo_factor = res.EchoTrainLength  % ETL
 
