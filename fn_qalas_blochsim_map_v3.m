@@ -24,11 +24,11 @@ function [  ] = fn_qalas_blochsim_map_v3( qalas_nifti_filename, qalas_json_filen
 %
 % example usage:
 %
-%    qalas_nifti_filename = '/autofs/space/marduk_001/users/berkin/2022_08_23_bay4_qalas_invivo_790um/subject1_jaejin/dicoms_1p15mm/qalas_R2_QALAS3d_1p15mm_R2_20220823120716_10.nii';
-%    qalas_json_filename = '/autofs/space/marduk_001/users/berkin/2022_08_23_bay4_qalas_invivo_790um/subject1_jaejin/dicoms_1p15mm/qalas_R2_QALAS3d_1p15mm_R2_20220823120716_10.json';
-%    afi_img_nifti_filename = '/autofs/space/marduk_001/users/berkin/2022_08_23_bay4_qalas_invivo_790um/subject1_jaejin/dicoms_1p15mm/b1_afi_AFI3D_RS_Spoilx35_R3_20220823120716_18.nii';
-%    afi_b1_nifti_filename = '/autofs/space/marduk_001/users/berkin/2022_08_23_bay4_qalas_invivo_790um/subject1_jaejin/dicoms_1p15mm/b1_afi_AFI3D_RS_Spoilx35_R3_20220823120716_21.nii';
-%    output_path = '/autofs/space/marduk_001/users/berkin/2022_08_23_bay4_qalas_invivo_790um/subject1_jaejin/dicoms_1p15mm/output_path';
+%    qalas_nifti_filename = 'path/qalas_R2_QALAS3d_1p15mm_R2_20220823120716_10.nii';
+%    qalas_json_filename = 'path/qalas_R2_QALAS3d_1p15mm_R2_20220823120716_10.json';
+%    afi_img_nifti_filename = 'path//b1_afi_AFI3D_RS_Spoilx35_R3_20220823120716_18.nii';
+%    afi_b1_nifti_filename = 'path//b1_afi_AFI3D_RS_Spoilx35_R3_20220823120716_21.nii';
+%    output_path = 'path/output_path';
 %
 %    fn_qalas_blochsim_map_v3( qalas_nifti_filename, qalas_json_filename, afi_img_nifti_filename, afi_b1_nifti_filename, output_path );
 
